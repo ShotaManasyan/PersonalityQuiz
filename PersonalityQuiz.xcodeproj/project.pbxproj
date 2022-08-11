@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1B4B28F28A5A47500CEF4C4 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B4B28E28A5A47500CEF4C4 /* QuestionViewController.swift */; };
+		C1B4B29128A5A49200CEF4C4 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B4B29028A5A49200CEF4C4 /* ResultsViewController.swift */; };
+		C1B4B29428A5A52500CEF4C4 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B4B29328A5A52500CEF4C4 /* IntroductionViewController.swift */; };
 		C1CAB3CC28A5775F001FB421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CAB3CB28A5775F001FB421 /* AppDelegate.swift */; };
 		C1CAB3CE28A5775F001FB421 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CAB3CD28A5775F001FB421 /* SceneDelegate.swift */; };
-		C1CAB3D028A5775F001FB421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CAB3CF28A5775F001FB421 /* ViewController.swift */; };
 		C1CAB3D328A5775F001FB421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1CAB3D128A5775F001FB421 /* Main.storyboard */; };
 		C1CAB3D528A57764001FB421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CAB3D428A57764001FB421 /* Assets.xcassets */; };
 		C1CAB3D828A57764001FB421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1CAB3D628A57764001FB421 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1B4B28E28A5A47500CEF4C4 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		C1B4B29028A5A49200CEF4C4 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		C1B4B29328A5A52500CEF4C4 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		C1CAB3C828A5775F001FB421 /* PersonalityQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalityQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CAB3CB28A5775F001FB421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1CAB3CD28A5775F001FB421 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1CAB3CF28A5775F001FB421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1CAB3D228A5775F001FB421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1CAB3D428A57764001FB421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1CAB3D728A57764001FB421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				C1CAB3CB28A5775F001FB421 /* AppDelegate.swift */,
 				C1CAB3CD28A5775F001FB421 /* SceneDelegate.swift */,
-				C1CAB3CF28A5775F001FB421 /* ViewController.swift */,
+				C1B4B29328A5A52500CEF4C4 /* IntroductionViewController.swift */,
+				C1B4B28E28A5A47500CEF4C4 /* QuestionViewController.swift */,
+				C1B4B29028A5A49200CEF4C4 /* ResultsViewController.swift */,
 				C1CAB3D128A5775F001FB421 /* Main.storyboard */,
 				C1CAB3D428A57764001FB421 /* Assets.xcassets */,
 				C1CAB3D628A57764001FB421 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1CAB3D028A5775F001FB421 /* ViewController.swift in Sources */,
 				C1CAB3CC28A5775F001FB421 /* AppDelegate.swift in Sources */,
+				C1B4B29428A5A52500CEF4C4 /* IntroductionViewController.swift in Sources */,
+				C1B4B28F28A5A47500CEF4C4 /* QuestionViewController.swift in Sources */,
+				C1B4B29128A5A49200CEF4C4 /* ResultsViewController.swift in Sources */,
 				C1CAB3CE28A5775F001FB421 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
